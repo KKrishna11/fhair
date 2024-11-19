@@ -182,8 +182,8 @@ section{
 /* header */
 
 .header{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -192,6 +192,7 @@ section{
     top:0; left:0; right: 0;
     background: var(--main-color);
     z-index: 1000;
+    
 }
  
 .header .logo{
@@ -214,14 +215,18 @@ section{
 .header .navbar a{
     font-size: 2rem;
     margin-left: 2rem;
-    color:var(--black);
+    color:black;
+    font-weight: 600;
     text-transform: capitalize;
 }
- 
+ /* text and hover idhar change kar */
  .header .navbar a:hover{
-    padding-bottom: 0.5rem;
+    /* padding-bottom: 0.5rem; */
     color:var(--primary-color);
+    font-weight: 900;
  }
+
+
  
  #menu-btn{
     font-size: 2.5rem;
@@ -230,7 +235,80 @@ section{
     display: none;
  }
 
+
+
+ .header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--box-shadow);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--main-color);
+  z-index: 1000;
+  
+}
+
+.header .logo {
+  /* Ensure the logo is on the left */
+  font-size: 2.5rem;
+  color:var(--black);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header .navbar {
+  display: flex;
+  align-content: flex-start;
+}
+
+.header .navbar a {
+  text-decoration: none;
+  margin: 0 1rem;
+  color: var(--black);
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  
+}
+
+.header #menu-btn {
+  display: none; /* Initially hide the menu button */
+  font-size: 2.5rem;
+  color: black;
+}
+
+#close-navbar {
+  display: none; /* Hide the close button initially */
+}
+
+@media (max-width: 768px) {
+  .header .navbar {
+    display: none; /* Hide the navbar on small screens */
+ 
+  }
+
+  .header #menu-btn {
+    display: block; /* Show the menu button on small screens */
+  }
+
+  /* Add a side menu or toggle the navbar on mobile screens */
+  #close-navbar {
+    display: block; /* Show close button on mobile */
+  }
+
+  .header #menu-btn,
+  #close-navbar {
+    position: absolute;
+    right: 2rem;
+  }
+}
+
  /* header */
+
 
  /* home */
 
@@ -547,6 +625,26 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:3rem;
+
+  }
+
+.blogs .box-container .box:nth-child(4),
+.blogs .box-container .box:nth-child(5) {
+  grid-column: span 1; /* Each of these boxes will take one column */
+  justify-self: center; /* Center these items in the second row */
+}
+
+
+@media (max-width: 768px) {
+  .blogs .box-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .blogs .box-container {
+    grid-template-columns: 1fr; /* 1 item per row for very small screens */
+  }
 }
 
 .blogs .box-container .box{
@@ -560,9 +658,9 @@ section{
 }
 
 .blogs .box-container .box .image img{
-    height: 100%;
-    object-fit: cover;
     width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures no cropping and the image fits fully */
 }
 
 .blogs .box-container .box:hover .image img{
@@ -586,10 +684,12 @@ section{
 .blogs .box-container .box .content span{
     color:var(--main-color);
     display: block;
-    padding-top: 1rem;
     font-size: 2rem;
     text-transform: capitalize;
+    z-index: 100px;
 }
+
+
 
 .blogs .box-container .box .content p{
     font-size: 1.6rem;
@@ -681,8 +781,9 @@ section{
 .review .box-container .box p{
     font-size: 1.5rem;
     line-height: 1.8;
-    color:var(--black);
+    color:black;
     padding:2rem 0;
+    font-weight: 500;
 }
 
 .review .box-container .box h3{
@@ -770,7 +871,7 @@ section{
   .footer .credit {
     text-align: center;
     margin-top: 3rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
     font-size: 2rem;
     text-transform: capitalize;
     color: #444;
@@ -802,8 +903,9 @@ section{
 
     #menu-btn{
         display: inline-block;
+        
     }
-
+/* bhai vo nvabar udhar hai  */
      .header .navbar {
         position: fixed;
         top: 0;
@@ -820,7 +922,9 @@ section{
                 flex-flow: column;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                justify-content: center;
+                justify-content: flex-start;
+                align-items: flex-start;
+                padding: 10px;
         z-index: 1200;
       }
       .header .navbar #close-navbar {
@@ -840,6 +944,7 @@ section{
     .home .content h3{
         font-size: 5rem;
     }
+
     .about{
       background: none;
     }
@@ -1090,6 +1195,7 @@ clip-path: polygon(0% 0%,0% 0%,0% 100%,0% 100%);
   }
 
   .links {
+
     gap: 2em;
   }
 

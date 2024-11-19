@@ -689,12 +689,14 @@ section.contact-us-section {
 
 .main-title h2 {
   color: var(--primary-color);
+  font-size: 20px;
 }
 
 .main-title p {
   color: var(--black);
+  font-size: 16px;
 }
-.hairstyle-pointer li{color:black;}
+.hairstyle-pointer li{color:black; font-size: 14px;}
 
 .form-sec {
   padding: 40px;
@@ -797,7 +799,7 @@ form.gift-card-form button:focus{
 .row-reverse{flex-direction: row-reverse;}
 .spacer-height {
   clear: both;
-  height: 100px;
+  height: 80px;
 }
 .intro{position: relative;
   display: block;
@@ -819,7 +821,7 @@ section.hairspa-whatdo-section{padding: 100px 0 100px;}
 .hair-spa-ex h5{color: #fff;}
 
 .hair_spa_menu_section{background-color: var(--light-bg); padding: 70px 50px 70px 50px;}
-.hair_spa_menu_section h5{color: var(--black);}
+.hair_spa_menu_section h5{color:black; font-size: 18px;}
 .hair_spa_menu_section h2{color: var(--primary-color);}
 .menu_listing h5{ color:var(--black);}
 .menu_listing ul{margin: 0; padding: 0;}
@@ -868,6 +870,9 @@ section.hairspa-whatdo-section{padding: 100px 0 100px;}
 .hair_spa_contact .btn{background-color: #000; border: 1px solid #323232; border-radius: 0; color: #fff; width: 30%;}
 .hair_spa_contact {padding-bottom: 90px;padding-top: 90px;}
 /* --------------=========================HAIR SPA PAGE CLOSE HERE======================-------------- */
+.scalp-euphoria{margin: 0px 40px;
+border: 1px solid black;
+padding: 40px 0px;}
 
 .body_spa_title{margin-bottom: 40px;}
 
