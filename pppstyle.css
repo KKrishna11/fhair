@@ -640,7 +640,7 @@ footer {
 
 section.contact-us-section {
   /*min-height: 100vh;*/
-  padding: 100px 0 100px;
+  padding: 10px 0 100px;
 }
 
 .cont-sec-flex{
@@ -799,11 +799,11 @@ form.gift-card-form button:focus{
 .row-reverse{flex-direction: row-reverse;}
 .spacer-height {
   clear: both;
-  height: 80px;
+  height: 10px;
 }
 .intro{position: relative;
   display: block;
-  width: 100%;
+  width: 90%;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -978,5 +978,14 @@ padding: 40px 0px;}
     
     }
 
+.rounded-bottom-left {
+      border-bottom-left-radius: 1rem; /* Adjust as needed */
+    }
 
+.rounded-top-right {
+      border-top-right-radius: 1rem; /* Adjust as needed */
+    }
 
+.rounded-bottom-right {
+      border-bottom-right-radius: 1rem; /* Adjust as needed */
+    }
