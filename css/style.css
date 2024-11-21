@@ -465,8 +465,26 @@ section {
 
 .styles .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(3, minmax(20rem, 1fr));
   gap: 1.5rem;
+  padding: 1rem; /* Optional: Add padding for spacing inside the container */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+@media (max-width: 768px) {
+  .styles .box-container {
+    grid-template-columns: repeat(
+      2,
+      minmax(15rem, 1fr)
+    ); /* Adjust for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .styles .box-container {
+    grid-template-columns: 1fr; /* Single column for mobile */
+  }
 }
 
 .styles .box-container .box .image {
@@ -477,6 +495,7 @@ section {
 
 .styles .box-container .box .image img {
   object-fit: cover;
+  width: 50px;
 }
 
 .styles .box-container .box .content {
@@ -484,7 +503,7 @@ section {
 }
 
 .styles .box-container .box .content .title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--primary-color);
   text-transform: capitalize;
 }
@@ -837,8 +856,8 @@ section {
   color: var(--white);
   margin-right: 0.3rem;
   text-align: center;
-position: relative;
-text-decoration: none;
+  position: relative;
+  text-decoration: none;
 }
 
 .footer .box-container .box .share a:hover {
@@ -1220,3 +1239,11 @@ footer > div {
   }
 }
 
+.footerpp-text{
+  font-size: 1.5rem;
+    color: black;
+    font-weight: 700;
+    text-align: justify; /* Added justification */
+    line-height: 1.8; /* Adjust line height for better spacing */
+    padding: 1rem 0; /* Added padding for spacing around text */
+}

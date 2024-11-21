@@ -464,7 +464,6 @@ section {
 img {
   max-width: 100%;
   display: block;
-  /* object-fit: contain;  */
 }
 
 ul {
@@ -591,6 +590,8 @@ ul i:hover {
   );
 }
 .mysection .cards .card img {
+  width: fit-content;
+  height: fit-content;
   filter: grayscale(100%);
   transition: 0.5s ease;
 }
