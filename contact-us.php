@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,7 +50,7 @@
   </section>
 
   <!-- START CONTACT SECTION -->
-  <div class="section-contact">
+  <!-- <div class="section-contact">
     <div class="row justify-content-center">
       <div class="col-12 col-lg-10 col-xl-8">
         <div class="header-section text-center">
@@ -106,7 +108,80 @@
         </div>
       </form>
     </div>
+  </div> -->
+
+
+  <div class="section-contact">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 col-xl-8">
+        <div class="header-section text-center">
+          <h2 class="title">
+            Get In Touch
+            <span class="dot"></span>
+            <span class="big-title">CONTACT</span>
+          </h2>
+          <p class="description">
+            Interested in becoming a part of the fhairsalons family? Reach out
+            to discuss franchise opportunities and join our mission to
+            redefine beauty across the globe.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="form-contact">
+      <form id="contactForm" action="send-email.php" method="POST">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="single-input">
+              <i class="fas fa-user"></i>
+              <input type="text" id="name" name="name" placeholder="Enter Your Name"
+                value="<?php echo htmlspecialchars($_SESSION['formData']['name'] ?? ''); ?>" />
+              <small class="error-message"><?php echo htmlspecialchars($_SESSION['errors']['name'] ?? ''); ?></small>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="single-input">
+              <i class="fas fa-envelope"></i>
+              <input type="email" id="email" name="email" placeholder="Enter Your Email"
+                value="<?php echo htmlspecialchars($_SESSION['formData']['email'] ?? ''); ?>" />
+              <small class="error-message"><?php echo htmlspecialchars($_SESSION['errors']['email'] ?? ''); ?></small>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="single-input">
+              <i class="fas fa-phone"></i>
+              <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter Your Phone Number"
+                value="<?php echo htmlspecialchars($_SESSION['formData']['phoneNumber'] ?? ''); ?>" />
+              <small class="error-message"><?php echo htmlspecialchars($_SESSION['errors']['phoneNumber'] ?? ''); ?></small>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="single-input">
+              <i class="fas fa-check"></i>
+              <input type="text" id="subject" name="subject" placeholder="Enter Your Subject"
+                value="<?php echo htmlspecialchars($_SESSION['formData']['subject'] ?? ''); ?>" />
+              <small class="error-message"><?php echo htmlspecialchars($_SESSION['errors']['subject'] ?? ''); ?></small>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="single-input">
+              <i class="fas fa-comment-dots"></i>
+              <textarea id="message" name="message" placeholder="Enter Your Message"><?php echo htmlspecialchars($_SESSION['formData']['message'] ?? ''); ?></textarea>
+              <small class="error-message"><?php echo htmlspecialchars($_SESSION['errors']['message'] ?? ''); ?></small>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="submit-input text-center">
+              <input type="submit" name="submit" value="SUBMIT NOW" />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
   </div>
+
+
+
   <!-- / END CONTACT SECTION -->
   <section class="footer mt-3">
     <div class="box-container">
@@ -132,11 +207,6 @@
         </p>
       </div>
 
-      <!-- <div class="box">
-              <h3>Contact Us</h3>
-              <p>+91 98765 43210</p>
-              <a href="mailto:info@fhairsalons.com" class="link">info@fhairsalons.com</a>
-          </div>  -->
 
       <div
         style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; text-align: justify;">
@@ -161,6 +231,28 @@
       rights reserved!
     </div>
   </section>
+
+
+  <style>
+    .error-message {
+      color: red;
+      font-size: 1.2rem;
+      font-weight: bolder;
+      margin-top: 3px;
+      display: block;
+      text-align: center;
+    }
+  </style>
+
+
+  <?php
+  // Clear session data after displaying errors
+  unset($_SESSION['errors']);
+  unset($_SESSION['formData']);
+  ?>
+
+
+
 
   <script src="js/script.js"></script>
 </body>

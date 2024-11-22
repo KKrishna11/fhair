@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -277,7 +279,6 @@
 
     </section>
 
-
     <div class="section-contact">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-10 col-xl-8">
@@ -296,36 +297,45 @@
             </div>
         </div>
         <div class="form-contact">
-            <form>
+            <form id="contactForm" action="send-email.php" method="POST">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="single-input">
                             <i class="fas fa-user"></i>
-                            <input type="text" name="name" placeholder="Enter Your Name" />
+                            <input type="text" id="name" name="name" placeholder="Enter Your Name"
+                                value="<?php echo htmlspecialchars($_SESSION['formData']['name'] ?? ''); ?>" />
+                            <small class="error-message"><?php echo htmlspecialchars($_SESSION['errors']['name'] ?? ''); ?></small>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="single-input">
                             <i class="fas fa-envelope"></i>
-                            <input type="text" name="email" placeholder="Enter Your Email" />
+                            <input type="email" id="email" name="email" placeholder="Enter Your Email"
+                                value="<?php echo htmlspecialchars($_SESSION['formData']['email'] ?? ''); ?>" />
+                            <small class="error-message"><?php echo htmlspecialchars($_SESSION['errors']['email'] ?? ''); ?></small>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="single-input">
                             <i class="fas fa-phone"></i>
-                            <input type="text" name="phoneNumber" placeholder="Enter Your Phone Number" />
+                            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter Your Phone Number"
+                                value="<?php echo htmlspecialchars($_SESSION['formData']['phoneNumber'] ?? ''); ?>" />
+                            <small class="error-message"><?php echo htmlspecialchars($_SESSION['errors']['phoneNumber'] ?? ''); ?></small>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="single-input">
                             <i class="fas fa-check"></i>
-                            <input type="text" name="subject" placeholder="Enter Your Subject" />
+                            <input type="text" id="subject" name="subject" placeholder="Enter Your Subject"
+                                value="<?php echo htmlspecialchars($_SESSION['formData']['subject'] ?? ''); ?>" />
+                            <small class="error-message"><?php echo htmlspecialchars($_SESSION['errors']['subject'] ?? ''); ?></small>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="single-input">
                             <i class="fas fa-comment-dots"></i>
-                            <textarea placeholder="Enter Your Message"></textarea>
+                            <textarea id="message" name="message" placeholder="Enter Your Message"><?php echo htmlspecialchars($_SESSION['formData']['message'] ?? ''); ?></textarea>
+                            <small class="error-message"><?php echo htmlspecialchars($_SESSION['errors']['message'] ?? ''); ?></small>
                         </div>
                     </div>
                     <div class="col-12">
@@ -394,6 +404,27 @@
             rights reserved!
         </div>
     </section>
+
+
+    <style>
+        .error-message {
+            color: red;
+            font-size: 1.2rem;
+            font-weight: bolder;
+            margin-top: 3px;
+            display: block;
+            text-align: center;
+        }
+    </style>
+
+
+    <?php
+    // Clear session data after displaying errors
+    unset($_SESSION['errors']);
+    unset($_SESSION['formData']);
+    ?>
+
+
 
     <script src="js/script.js"></script>
 </body>

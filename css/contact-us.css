@@ -534,6 +534,7 @@ position: absolute;
   top: 5px;
   left: 15px;
   color: var(--milkycoffee);
+  font-size: 1.5rem;
   font-weight: 900;
 }
 
@@ -569,15 +570,16 @@ min-height: 50px;
 .section-contact .form-contact .submit-input input {
 margin-top: 40px;
   padding: 15px 50px;
-  background-color: #de3842;
-  color: #fff;
+  background-color: green;
+  color: white;
+  font-weight: bolder;
   border: none;
-  font-weight: 700;
   transition: background-color .3s;
 }
 
 .section-contact .form-contact .submit-input input:hover {
 background-color: #07395c;
+font-weight: 700;
 }
 
 @media (max-width: 575.99px) {
