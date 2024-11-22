@@ -54,8 +54,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'Info@florianhurelhaircouture.com'; // Replace with your email
-        $mail->Password   = 'czxtqkxiewgfdvwa'; // Replace with your email password or app password
+        $mail->Username   = ''; // Replace with your email
+        $mail->Password   = ''; // Replace with your email password or app password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
