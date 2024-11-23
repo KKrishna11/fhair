@@ -43,8 +43,8 @@
       <a href="scalp-treatment.html">Korean Hair Spa</a>
       <a href="skin-care.html">Skin</a>
 
-      <a href="contact-us.html">Contact Us</a>
-      <a href="franchise.html">Franchise</a>
+      <a href="contact-us.php">Contact Us</a>
+      <a href="franchise.php">Franchise</a>
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>
   </section>
@@ -195,8 +195,7 @@
         <div class="share">
           <a href="./skin-care.html" class="fab fa-facebook-f"></a>
           <a href="./hair-spa.html" class="fab fa-instagram"></a>
-          <a href="mailto:info@fhairsalons.com" class="fa fa-envelope"></a>
-        </div>
+          <a href="mailto:franchise@fhairsalons.com" class="fa fa-envelope"></a></div>
       </div>
 
       <div class="box">

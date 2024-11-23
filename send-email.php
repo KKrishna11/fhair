@@ -45,7 +45,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     }
 
-    var_dump($_POST['phoneNumber']);
 
     $mail = new PHPMailer(true);
 
@@ -60,21 +59,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port       = 587;
 
         //Recipients
-        $mail->setFrom($email, $name);
-        $mail->addAddress('kushwaha.krishna1233@gmail.com', 'backend-Recipient Name'); // Replace with your recipient email
+        $mail->setFrom('franchise@fhairsalons.com', 'Franchise'); // Replace with your recipient email
 
+        $mail->addAddress('franchise@fhairsalons.com', 'Franchise'); // Replace with your recipient email
+        // $mail->addAddress('marketing@fhairsalons.com', 'Franchise'); // Replace with your recipient email
+        // $mail->addAddress('ceo@fhairsalons.com', 'Franchise'); // Replace with your recipient email
         //Content
         $mail->isHTML(true);
-        // $mail->Subject = "Contact Form Submission: " . $subject;
-        // $mail->Body    = "You have received a new message from the contact form on your website.<br><br>" .
-        //     "Name: $name<br>" .
-        //     "Email: $email<br>" .
-        //     "Phone: $phoneNumber<br>" .
-        //     "Subject: $subject<br>" .
-        //     "Message: $message";
 
 
-        $mail->Subject = "Franchise Inquiry: New Contact Form Submission from " . $subject;
+        $mail->Subject = "Franchise Inquiry: New Contact Form Submission from " . $name;
         $mail->Body    = "<html>
                             <body>
                                 <h2>Franchise Contact Form Submission</h2>
@@ -88,15 +82,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <p><strong>Franchise Next Steps:</strong>PLEASE REPLY TO THE EMAIL AND CONTACT TEAM.</p>
                             </body>
                           </html>";
-        
+
 
 
         $mail->send();
 
-
-
-        echo 'Message has been sent';
+        echo "<script>
+                alert('Message has been sent successfully!');
+                window.location.href = 'index.html'; // Replace with your home page URL
+              </script>";
     } catch (Exception $e) {
-        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+
+        echo "<script>
+                alert('Message could not be sent PLEASE CALL US,  SORRY . Error: {$mail->ErrorInfo}');
+                window.location.href = 'contact-us.php'; // Redirect back to the contact page
+              </script>";
     }
 }
