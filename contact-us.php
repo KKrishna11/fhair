@@ -4,30 +4,49 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta meta name="viewport" content="width=device-width, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO Meta Tags for Franchise -->
+  <meta name="description" content="Get in touch with Fhairsalons to learn more about our franchise opportunities. Whether you're interested in opening a new location or learning about our services, we're here to help you start your journey!" />
+  <meta name="keywords" content="contact Fhairsalons, franchise inquiry, salon franchise opportunities, hair salon franchise contact, beauty franchise contact" />
+  <meta name="author" content="fhairsalons" />
+
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Contact Fhairsalons - Franchise Opportunities" />
+  <meta property="og:description" content="Contact Fhairsalons to explore exciting franchise opportunities and start your own hair salon or beauty business. We're happy to answer any questions you have about joining our network!" />
+  <meta property="og:image" content="https://www.fhairsalons.com/images/contact-franchise-og.jpg" />
+  <meta property="og:url" content="https://www.fhairsalons.com/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contact Fhairsalons - Franchise Opportunities" />
+  <meta name="twitter:description" content="Reach out to Fhairsalons for information about our franchise opportunities. Learn how you can start your own salon or beauty business with expert support and training!" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://www.fhairsalons.com/favicon.ico" type="image/x-icon" />
+
+
 
   <title>Fhairsalons</title>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-
   <link rel="stylesheet" href="css/contact-us.css" />
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
     integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Rubik&display=swap"
     rel="stylesheet" />
 
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css" />
+
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css" />
+
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto&display=swap" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -49,66 +68,7 @@
     <div id="menu-btn" class="fas fa-bars"></div>
   </section>
 
-  <!-- START CONTACT SECTION -->
-  <!-- <div class="section-contact">
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-10 col-xl-8">
-        <div class="header-section text-center">
-          <h2 class="title">
-            Get In Touch
-            <span class="dot"></span>
-            <span class="big-title">CONTACT</span>
-          </h2>
-          <p class="description">
-            Interested in becoming a part of the fhairsalons family? Reach out
-            to discuss franchise opportunities and join our mission to
-            redefine beauty across the globe.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="form-contact">
-      <form>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="single-input">
-              <i class="fas fa-user"></i>
-              <input type="text" name="name" placeholder="Enter Your Name" />
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="single-input">
-              <i class="fas fa-envelope"></i>
-              <input type="text" name="email" placeholder="Enter Your Email" />
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="single-input">
-              <i class="fas fa-phone"></i>
-              <input type="text" name="phoneNumber" placeholder="Enter Your Phone Number" />
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="single-input">
-              <i class="fas fa-check"></i>
-              <input type="text" name="subject" placeholder="Enter Your Subject" />
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="single-input">
-              <i class="fas fa-comment-dots"></i>
-              <textarea placeholder="Enter Your Message"></textarea>
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="submit-input text-center">
-              <input type="submit" name="submit" value="SUBMIT NOW" />
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div> -->
+
 
 
   <div class="section-contact">
@@ -195,7 +155,8 @@
         <div class="share">
           <a href="./skin-care.html" class="fab fa-facebook-f"></a>
           <a href="./hair-spa.html" class="fab fa-instagram"></a>
-          <a href="mailto:franchise@fhairsalons.com" class="fa fa-envelope"></a></div>
+          <a href="mailto:franchise@fhairsalons.com" class="fa fa-envelope"></a>
+        </div>
       </div>
 
       <div class="box">

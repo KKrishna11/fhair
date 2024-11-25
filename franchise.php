@@ -6,24 +6,41 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- SEO Meta Tags for Franchise -->
+    <meta name="description" content="Explore the exciting opportunities of owning a Fhairsalons franchise. Join our growing network and bring premium beauty services to your area. Learn how you can become a part of our successful salon franchise today!" />
+    <meta name="keywords" content="hair salon franchise, beauty franchise opportunities, Fhairsalons franchise, salon business opportunities, beauty industry franchise, franchise for hair salons" />
+    <meta name="author" content="fhairsalons" />
+
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Fhairsalons - Franchise Opportunities in Beauty & Hair" />
+    <meta property="og:description" content="Join the Fhairsalons franchise and bring premium beauty and hair salon services to your area. Become part of a successful franchise network with expert support and proven success!" />
+    <meta property="og:image" content="https://www.fhairsalons.com/images/franchise-opportunity-og.jpg" />
+    <meta property="og:url" content="https://www.fhairsalons.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fhairsalons - Franchise Opportunities in Beauty & Hair" />
+    <meta name="twitter:description" content="Discover the lucrative opportunities of owning a Fhairsalons franchise. Join our network and offer premium beauty services with expert guidance and support!" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://www.fhairsalons.com/favicon.ico" type="image/x-icon" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-    <title>FhairSalons</title>
+    <title>Fhairsalons</title>
     <link href="pppstyle.css" rel="stylesheet" />
     <link href="./css/style.css" rel="stylesheet" />
-    <link href="new-font.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/font-icons.min.css" />
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script src="https://www.google.com/recaptcha/api.js"></script>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,8 +63,8 @@
             <a href="scalp-treatment.html">Korean Hair Spa</a>
             <a href="skin-care.html">Skin</a>
 
-            <a href="contact-us.html">Contact Us</a>
-            <a href="franchise.html">Franchise</a>
+            <a href="contact-us.php">Contact Us</a>
+            <a href="franchise.php">Franchise</a>
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>
     </section>
@@ -57,7 +74,7 @@
         <div class="container-fluid">
             <div class="row align-items-center row-reverse rounded-bottom-left">
                 <div class="col-lg-6 p-0">
-                    <img src="images/zoom_logo.jpg" class="model-img w-100 rounded-bottom-left" alt="" />
+                    <img src="images/zoom_logo.jpg" class="model-img w-100 rounded-bottom-left" alt="florianhurelhaircouturelogo" />
                 </div>
                 <div class="col-lg-6">
                     <div class="form-sec">
@@ -133,7 +150,7 @@
 
                 <div class="col-lg-6 p-0">
                     <img src="images/florian-hurel.png" class="model-img w-100 rounded-top-right rounded-bottom-right"
-                        alt="" />
+                        alt="florian-hurel" />
                 </div>
 
             </div>
@@ -150,7 +167,7 @@
 
                 <div class="col-lg-6 p-0">
                     <img src="images/entragorup.jpeg" class="model-img w-100 rounded-bottom-left rounded-top-left"
-                        alt="">
+                        alt="entrance-group">
                 </div>
                 <div class="col-lg-6">
                     <div class="form-sec">
@@ -188,7 +205,7 @@
                     <h2>Our Support</h2>
                 </div>
                 <div class="col-lg-12 p-0">
-                    <img src="images/bandramainentry.jpeg" width="100%" class="model-img w-100" alt="" />
+                    <img src="images/bandramainentry.jpeg" width="100%" class="model-img w-100" alt="bandra-salon-main-entry" />
                 </div>
                 <div class="col-lg-12">
                     <div class="form-sec">
@@ -215,7 +232,7 @@
         <div class="box-container">
             <div class="box">
                 <div class="image">
-                    <img src="images/roi.png" alt="Wedding hairstyle" />
+                    <img src="images/roi.png" alt="Investment" />
                 </div>
                 <div class="content">
                     <h3 class="title">Investment commitment</h3>
@@ -224,7 +241,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="images/live-location.png" alt="Evening hairstyle" />
+                    <img src="images/live-location.png" alt="live-location" />
                 </div>
                 <div class="content">
                     <h3 class="title">Ground Floor</h3>
@@ -233,7 +250,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="images/area.png" alt="Party hairstyle" />
+                    <img src="images/area.png" alt="carpet-area" />
                 </div>
                 <div class="content">
                     <h3 class="title">1500-2000 sq ft Carpet Area</h3>
@@ -245,7 +262,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="images/buildings.png" alt="Business hairstyle" />
+                    <img src="images/buildings.png" alt="High-Street-Location" />
                 </div>
                 <div class="content">
                     <h3 class="title">High Street Location </h3>
@@ -255,7 +272,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="images/barbershop.png" alt="Business hairstyle" />
+                    <img src="images/barbershop.png" alt="visible-shop" />
                 </div>
                 <div class="content">
                     <h3 class="title">Visible Facade</h3>
@@ -264,7 +281,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="images/parking-sign-board.png" alt="Business hairstyle" />
+                    <img src="images/parking-sign-board.png" alt="Parking" />
                 </div>
                 <div class="content">
                     <h3 class="title">Sufficient Parking Space</h3>
@@ -375,11 +392,6 @@
                 </p>
             </div>
 
-            <!-- <div class="box">
-                <h3>Contact Us</h3>
-                <p>+91 98765 43210</p>
-                <a href="mailto:info@fhairsalons.com" class="link">info@fhairsalons.com</a>
-            </div>  -->
 
             <div
                 style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; text-align: justify;">
