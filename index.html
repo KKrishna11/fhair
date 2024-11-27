@@ -635,66 +635,8 @@
         stagger: 0.25,
       });
 
-      // Re-enable scrolling after the loader animation completes
 
-      // Corrected welcomeMessages object with unique language keys
-      const welcomeMessages = {
-        en_us: "Welcome,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        hi: "स्वागत है,",
-        en_us: "Welcome,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        fr: "Bienvenue,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        fr: "Bienvenue,",
-        es: "Bienvenido,",
-        de: "Willkommen,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        zh: "欢迎,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        ar: "مرحبًا،",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        it: "Benvenuto,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        ja: "ようこそ,",
-        ko: "환영합니다,",
-        en_uk: "Welcome,",
-        en_uk: "Welcome,",
-        ru: "Добро пожаловать,",
-        pt: "Bem-vindo,",
-        nl: "Welkom,",
-        sv: "Välkommen,",
-        tr: "Hoş geldiniz,",
-        pl: "Witamy,",
-        el: "Καλώς ήρθατε,",
-        th: "ยินดีต้อนรับ,",
-        id: "Selamat datang,",
-        vi: "Chào mừng,",
-      };
-
-      const languages = Object.keys(welcomeMessages);
-      let index = 0;
-
-      setInterval(() => {
-        const welcomeText = document.getElementById("welcome-text");
-        index = (index + 1) % languages.length;
-        welcomeText.textContent = welcomeMessages[languages[index]];
-      }, 5000); // Change every 5 seconds
+     
     </script>
   </body>
 </html>
