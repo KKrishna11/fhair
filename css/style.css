@@ -1089,7 +1089,7 @@ section {
 .copy {
   flex: 6;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-transform: uppercase;
+  text-transform: capitalize;
   line-height: 1;
   font-size: 30px;
 }
@@ -1111,7 +1111,10 @@ section {
   top: 0;
   width: 100%;
   height: 100%;
-  background: var(--milkycoffee);
+  background: black;
+  background-image: url("../images/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: -1;
 }
 
@@ -1158,7 +1161,7 @@ footer {
   bottom: 0;
   width: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   padding: 2em;
 }
 
@@ -1179,19 +1182,23 @@ footer > div {
 }
 
 .fooimg {
-  width: 225px;
-  height: 150px;
+  width: 275px;
+  height: 170px;
+  object-fit: cover;
   clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
 }
 
-.fooimg:nth-child(1) {
+.footer-nav a:nth-of-type(1) .fooimg {
   background: url(../images/deskimage2.jpg) no-repeat 50% 50%;
   background-size: cover;
 }
-.fooimg:nth-child(2) {
+
+.footer-nav a:nth-of-type(2) .fooimg {
   background: url(../images/deskimage1.jpg) no-repeat 50% 50%;
   background-size: cover;
 }
+
+
 /* 
 @media (max-width:900px){
   footer{
