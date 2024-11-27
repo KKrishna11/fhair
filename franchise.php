@@ -46,9 +46,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Rubik&display=swap"
         rel="stylesheet">
+        
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3QG2M36KJ2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-3QG2M36KJ2');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NH3WGC6M');</script>
+<!-- End Google Tag Manager -->
 
 </head>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NH3WGC6M"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <body>
     <section class="header paddingsection">
@@ -102,16 +124,7 @@
                             </p>
 
                         </div>
-                        <div class="download_hair_pdf">
-                            <ul>
-                                <li>
-                                    <a href="FHHC-Service-Menu.pdf" target="_blank"><i
-                                            class="feather icon-feather-download"></i>&nbsp;
-                                        Download Franchise Prospectus</a>
-                                </li>
-                                <!--<li><a href="#"><i class="feather icon-feather-download"></i>&nbsp; Total-Angebot</a></li>-->
-                            </ul>
-                        </div>
+                     
                     </div>
                 </div>
             </div>
@@ -386,10 +399,11 @@
 
             <div class="box">
                 <h3>Our Location</h3>
-                <p>
-                    Fhairsalons, Bandra West <br />
-                    Mumbai, India
-                </p>
+                      <p>
+            FLORIAN HUREL SALONS PRIVATE LIMITED <br>1st Floor, Haji Siddiqui
+            Building,<br> Dr. Ambedkar Road, Dandpada,
+            Khar (W),<br>Mumbai-400051, Maharashtra, India.
+          </p>
             </div>
 
 

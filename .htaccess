@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+    # Enable Rewrite Engine
+    RewriteEngine On
+    RewriteBase /
+
+    # Rewrite non-file and non-directory requests to index.html (for Single Page Apps)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule (.*) /index.html [QSA,L]
+</IfModule>
+
+# Force HTTPS and remove "www"
+RewriteEngine On
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^www\.fhairsalons\.com$ [NC]
+RewriteRule ^ https://fhairsalons.com%{REQUEST_URI} [L,R=301]
+
+# Handle .html and .php page redirection and prevent direct access if needed
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /index.php?route=$1 [L,QSA]
+

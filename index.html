@@ -49,15 +49,16 @@
       type="image/x-icon"
     />
 
-    <title>Fhairsalons Localhost</title>
+ <link rel="stylesheet" type="text/css" href="css/style.css?v=2" />
+ 
+    <title>Fhairsalons</title>
 
     <link
       rel="stylesheet"
-      type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
 
-    <link  type="text/css" rel="stylesheet" href="css/style.css" />
+   
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -65,9 +66,39 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Rubik&display=swap"
       rel="stylesheet"
     />
+    
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3QG2M36KJ2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3QG2M36KJ2');
+</script>
+    
+    
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NH3WGC6M');</script>
+<!-- End Google Tag Manager -->
+    
   </head>
+  
+  
 
   <body>
+      
+      <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NH3WGC6M"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
     <!-- header -->
 
     <section class="header">
@@ -83,7 +114,6 @@
         <a href="skin-care.html">Skin</a>
 
         <a href="contact-us.php">Contact Us</a>
-        <a href="franchise.php">Franchise</a>
         <a href="franchise.php">Franchise</a>
       </nav>
       <div id="menu-btn" class="fas fa-bars"></div>
@@ -142,7 +172,7 @@
     <!-- home -->
     <section class="home" id="home">
       <div class="content">
-        <span>Welcome,</span>
+        <span id="welcome-text">Welcome,</span>
         <h3>
           Franchise with Us <br />
           Making Beauty <br />
@@ -314,12 +344,11 @@
         <div class="box">
           <a href="#" aria-label="Discover fhair Products for every hair type">
             <div class="image">
-              <img src="images/fhairlogo.jpg" alt="FHair Product"             style="display: block; width: 100%; height: auto; object-fit: contain; " 
-              />
+              <img src="images/blog3.jpg" alt="FHair Product" />
             </div>
             <div class="content">
               <h3 class="title">Fhair Product</h3>
-              <span>Coming Soon</span>
+              <span>by admin / 19th July, 2021</span>
               <p>
                 Discover the exclusive range of fhair Products designed for
                 every hair type. Our premium products help you achieve
@@ -374,70 +403,70 @@
     <!-- styles end-->
 
     <!-- reviews -->
-    <!-- <section class="review" id="review">
-      <h1 class="heading">Customer's Review</h1>
+    <!--<section class="review" id="review">-->
+    <!--  <h1 class="heading">Customer's Review</h1>-->
 
-      <div class="box-container">
-        <div class="box">
-          <img src="images/quote-img.png" alt="review" class="quote" />
-          <p>
-            The service at fhairsalons was absolutely amazing! My haircut turned
-            out exactly how I wanted, and the stylist was incredibly
-            professional. The products they used felt luxurious, and the
-            ambiance made the whole experience even better.
-          </p>
-          <img src="images/review-1.png" class="user" alt="Customer Photo" />
-          <h3>Aarav Mehta</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-        </div>
+    <!--  <div class="box-container">-->
+    <!--    <div class="box">-->
+    <!--      <img src="images/quote-img.png" alt="review" class="quote" />-->
+    <!--      <p>-->
+    <!--        The service at fhairsalons was absolutely amazing! My haircut turned-->
+    <!--        out exactly how I wanted, and the stylist was incredibly-->
+    <!--        professional. The products they used felt luxurious, and the-->
+    <!--        ambiance made the whole experience even better.-->
+    <!--      </p>-->
+    <!--      <img src="images/review-1.png" class="user" alt="Customer Photo" />-->
+    <!--      <h3>Aarav Mehta</h3>-->
+    <!--      <div class="stars">-->
+    <!--        <i class="fas fa-star"></i>-->
+    <!--        <i class="fas fa-star"></i>-->
+    <!--        <i class="fas fa-star"></i>-->
+    <!--        <i class="fas fa-star"></i>-->
+    <!--        <i class="fas fa-star"></i>-->
+    <!--      </div>-->
+    <!--    </div>-->
 
-        <div class="box">
-          <img src="images/quote-img.png" alt="review" class="quote" />
-          <p>
-            I had the Korean hair spa at fhairsalons, and it was such a
-            rejuvenating experience! My hair feels softer and healthier than
-            ever. The staff was friendly, and the process was incredibly
-            relaxing. This was the best spa experience I’ve ever had, and I
-            can’t wait to go back soon.
-          </p>
-          <img src="images/review-2.png" class="user" alt="Customer Photo" />
-          <h3>Sneha Sharma</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-        </div>
+    <!--    <div class="box">-->
+    <!--      <img src="images/quote-img.png" alt="review" class="quote" />-->
+    <!--      <p>-->
+    <!--        I had the Korean hair spa at fhairsalons, and it was such a-->
+    <!--        rejuvenating experience! My hair feels softer and healthier than-->
+    <!--        ever. The staff was friendly, and the process was incredibly-->
+    <!--        relaxing. This was the best spa experience I’ve ever had, and I-->
+    <!--        can’t wait to go back soon.-->
+    <!--      </p>-->
+    <!--      <img src="images/review-2.png" class="user" alt="Customer Photo" />-->
+    <!--      <h3>Sneha Sharma</h3>-->
+    <!--      <div class="stars">-->
+    <!--        <i class="fas fa-star"></i>-->
+    <!--        <i class="fas fa-star"></i>-->
+    <!--        <i class="fas fa-star"></i>-->
+    <!--        <i class="fas fa-star"></i>-->
+    <!--        <i class="fas fa-star"></i>-->
+    <!--      </div>-->
+    <!--    </div>-->
 
-        <div class="box">
-          <img src="images/quote-img.png" alt="review" class="quote" />
-          <p>
-            I visited fhairsalons for nail art, and it exceeded my expectations!
-            The designs were intricate and exactly how I imagined. The staff
-            paid great attention to detail, and the environment was clean and
-            soothing. I left with beautiful nails and a big smile. A fantastic
-            experience overall.
-          </p>
-          <img src="images/review-3.png" class="user" alt="Customer Photo" />
-          <h3>Priya Kapoor</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-        </div>
-      </div>
-    </section> -->
+    <!--    <div class="box">-->
+    <!--      <img src="images/quote-img.png" alt="review" class="quote" />-->
+    <!--      <p>-->
+    <!--        I visited fhairsalons for nail art, and it exceeded my expectations!-->
+    <!--        The designs were intricate and exactly how I imagined. The staff-->
+    <!--        paid great attention to detail, and the environment was clean and-->
+    <!--        soothing. I left with beautiful nails and a big smile. A fantastic-->
+    <!--        experience overall.-->
+    <!--      </p>-->
+    <!--      <img src="images/review-3.png" class="user" alt="Customer Photo" />-->
+    <!--      <h3>Priya Kapoor</h3>-->
+    <!--      <div class="stars">-->
+    <!--        <i class="fas fa-star"></i>-->
+    <!--        <i class="fas fa-star"></i>-->
+    <!--        <i class="fas fa-star"></i>-->
+    <!--        <i class="fas fa-star"></i>-->
+    <!--        <i class="fas fa-star-half-alt"></i>-->
+    <!--      </div>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</section>-->
 
     <!-- reviews end -->
 
@@ -473,7 +502,7 @@
 
         <div class="box">
           <h3>Our Location</h3>
-          <p>
+                    <p>
             FLORIAN HUREL SALONS PRIVATE LIMITED <br>1st Floor, Haji Siddiqui
             Building,<br> Dr. Ambedkar Road, Dandpada,
             Khar (W),<br>Mumbai-400051, Maharashtra, India.
@@ -516,7 +545,7 @@
           >
             <p><strong>Zarir Meherji</strong><br />DIRECTOR CEO</p>
             <p>
-              <a style="text-decoration: none" href="tel:+919168912082"
+              <a style="text-decoration: none" href="tel:+919167077150"
                 >+91 91670 77150</a
               >
             </p>
@@ -567,7 +596,7 @@
 
       // Loader animations
       startLoader();
-      gsap.to(".count", { opacity: 0, delay: 3.5, duration: 0.5 });
+      gsap.to(".count", { opacity: 0, delay: 2.0, duration: 0.5 });
 
       let textWrapper = document.querySelector(".ml16");
 
@@ -592,20 +621,20 @@
           duration: 3000,
           delay: (el, i) => 2000 + 30 * i,
         });
-      gsap.to(".ml16", { opacity: 0, delay: 3.5, duration: 0.5 });
+      gsap.to(".ml16", { opacity: 0, delay: 2.0, duration: 0.5 });
 
       gsap.to(".pre-loader", {
         scale: 0.5,
         ease: "power4.inOut",
         duration: 2,
-        delay: 3,
+        delay: 2,
       });
 
       gsap.to(".loader", {
         height: "0",
         ease: "power4.inOut",
         duration: 1.5,
-        delay: 3.75,
+        delay: 3.65,
       });
 
       gsap.to(".loader-bg", {
@@ -638,8 +667,66 @@
         stagger: 0.25,
       });
 
+      // Re-enable scrolling after the loader animation completes
 
-     
+      // Corrected welcomeMessages object with unique language keys
+      const welcomeMessages = {
+        en_us: "Welcome,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        hi: "स्वागत है,",
+        en_us: "Welcome,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        fr: "Bienvenue,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        fr: "Bienvenue,",
+        es: "Bienvenido,",
+        de: "Willkommen,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        zh: "欢迎,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        ar: "مرحبًا،",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        it: "Benvenuto,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        ja: "ようこそ,",
+        ko: "환영합니다,",
+        en_uk: "Welcome,",
+        en_uk: "Welcome,",
+        ru: "Добро пожаловать,",
+        pt: "Bem-vindo,",
+        nl: "Welkom,",
+        sv: "Välkommen,",
+        tr: "Hoş geldiniz,",
+        pl: "Witamy,",
+        el: "Καλώς ήρθατε,",
+        th: "ยินดีต้อนรับ,",
+        id: "Selamat datang,",
+        vi: "Chào mừng,",
+      };
+
+      const languages = Object.keys(welcomeMessages);
+      let index = 0;
+
+      setInterval(() => {
+        const welcomeText = document.getElementById("welcome-text");
+        index = (index + 1) % languages.length;
+        welcomeText.textContent = welcomeMessages[languages[index]];
+      }, 5000); // Change every 5 seconds
     </script>
   </body>
 </html>

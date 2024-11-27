@@ -1,0 +1,10 @@
+# robots.txt for fhairsalons.com
+
+User-agent: *
+Disallow: 
+
+# Allow all URLs explicitly
+Allow: /
+
+# Sitemap location
+Sitemap: https://fhairsalons.com/sitemap.xml

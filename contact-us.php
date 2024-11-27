@@ -46,10 +46,34 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css" />
 
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto&display=swap" rel="stylesheet" />
+  
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3QG2M36KJ2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3QG2M36KJ2');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NH3WGC6M');</script>
+<!-- End Google Tag Manager -->
 
 </head>
 
 <body>
+    
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NH3WGC6M"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
   <section class="header paddingsection">
     <a href="./index.html" class="logo"> Fhairsalons </a>
 
@@ -161,10 +185,11 @@
 
       <div class="box">
         <h3>Our Location</h3>
-        <p>
-          Fhairsalons, Bandra West <br />
-          Mumbai, India
-        </p>
+                <p>
+            FLORIAN HUREL SALONS PRIVATE LIMITED <br>1st Floor, Haji Siddiqui
+            Building,<br> Dr. Ambedkar Road, Dandpada,
+            Khar (W),<br>Mumbai-400051, Maharashtra, India.
+          </p>
       </div>
 
 

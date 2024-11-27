@@ -62,9 +62,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->setFrom('franchise@fhairsalons.com', 'Franchise'); // Replace with your recipient email
 
         $mail->addAddress('franchise@fhairsalons.com', 'Franchise'); // Replace with your recipient email
-        // $mail->addAddress('marketing@fhairsalons.com', 'Franchise'); // Replace with your recipient email
-        // $mail->addAddress('ceo@fhairsalons.com', 'Franchise'); // Replace with your recipient email
-        //Content
+                $mail->addAddress('ceo@fhairsalons.com', 'Zarir Meherji');
+        $mail->addAddress('zubairkhan@fhairsalons.com','Zubair Khan');
+        
         $mail->isHTML(true);
 
 

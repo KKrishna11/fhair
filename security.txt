@@ -1,0 +1,4 @@
+Contact: mailto:franchise@fhairsalons.com
+Encryption: https://fhairsalons.com/pgp-key.txt
+Acknowledgements: https://fhairsalons.com/security-policy
+Preferred-Languages: en

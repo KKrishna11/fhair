@@ -1,0 +1,8 @@
+/* TEAM */
+Developed by: FHHCS Team
+Website: https://fhairsalons.com
+Contact: franchise@fhairsalons.com
+
+/* SITE */
+Last Updated: 2024-11-25
+Framework: HTML5, CSS3,JS,PHP
