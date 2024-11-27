@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:1,300,400,400italic,500,700,700italic,900");
+/* @import url("https://fonts.googleapis.com/css?family=Playfair+Display:1,300,400,400italic,500,700,700italic,900"); */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Work+Sans:wght@400;500;600&family=Barlow:wght@400;600&display=swap');
 
 :root {
   --main-color: #d7c7ae;
@@ -19,7 +20,8 @@
 }
 
 * {
-  font-family: "Playfair Display", sans-serif;
+  /* font-family: "Playfair Display", sans-serif; */
+  font-family: 'Work Sans', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -28,6 +30,17 @@
   text-decoration: none;
   transition: all 0.2s linear;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Mulish', sans-serif;
+}
+
+a, button {
+  font-family: 'Barlow', sans-serif;
+}
+
+
+
 
 html {
   font-size: 52.5%;
@@ -51,7 +64,7 @@ html {
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   h4 {
@@ -77,7 +90,7 @@ html {
   }
 
   h3 {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
 
   h4 {
@@ -954,8 +967,30 @@ section {
     font-size: 3rem;
   }
 
-  .home .content h3 {
+  /* .home .content h3 {
     font-size: 5rem;
+  } */
+
+
+
+  .home{
+    min-height: 30vh;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home .content span{
+    padding:1rem;
+  }
+  .home .content h3 {
+    font-size:5rem; 
+    color: black;                            
+    z-index: 100;                            
+    text-wrap: wrap;                          
+    text-align: top;                         
+    padding: 1rem;                                     
+    max-width: 100%;                        
   }
 
   .about {
@@ -976,16 +1011,24 @@ section {
     font-size: 50%;
   }
 
+  .home{
+    min-height: 30vh;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .home .content span{
+    padding:0.5rem;
+  }
   .home .content h3 {
-    font-size: 4rem; /* Large, readable font size */
-    color: white; /* Ensures high contrast against the dark background */
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Adds a subtle glow effect to enhance visibility */
-    z-index: 100; /* Keeps the text above other elements */
-    text-wrap: wrap; /* Allows wrapping of text if necessary */
-    text-align: left; /* Aligns text to the left */
-    padding: 1rem; /* Adds space around the text */
-    border-radius: 5px; /* Slightly rounds the background edges */
-    max-width: 90%; /* Ensures the text doesn't span too wide */
+    font-size:4rem; 
+    color: black;                            
+    z-index: 100;                            
+    text-wrap: wrap;                          
+    text-align: top;                         
+    padding: 0.5rem;                                     
+    max-width: 100%;                        
   }
 
   .about {
@@ -1000,6 +1043,8 @@ section {
     line-height: 1.8;
   }
 }
+
+
 
 /* neww */
 

@@ -1097,15 +1097,16 @@ min-height: 50px;
 .section-contact .form-contact .submit-input input {
 margin-top: 40px;
   padding: 15px 50px;
-  background-color: #de3842;
-  color: #fff;
+  background-color: green;
+  color: white;
   border: none;
-  font-weight: 700;
+  font-weight: bolder;
   transition: background-color .3s;
 }
 
 .section-contact .form-contact .submit-input input:hover {
 background-color: #07395c;
+font-weight: 700;
 }
 
 @media (max-width: 575.99px) {
