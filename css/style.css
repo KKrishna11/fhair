@@ -1140,11 +1140,11 @@ footer > div {
 }
 
 .fooimg:nth-child(1) {
-  background: url(../images/bandra_spa.jpg) no-repeat 50% 50%;
+  background: url(../images/deskimage2.jpg) no-repeat 50% 50%;
   background-size: cover;
 }
 .fooimg:nth-child(2) {
-  background: url(../images/banner-main.png) no-repeat 50% 50%;
+  background: url(../images/deskimage1.jpg) no-repeat 50% 50%;
   background-size: cover;
 }
 /* 
