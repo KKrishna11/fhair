@@ -1,6 +1,9 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Work+Sans:wght@400;500;600&family=Barlow:wght@400;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Work+Sans:wght@400;500;600&family=Barlow:wght@400;600&display=swap');
+
 :root {
 
-  --primary-font:  Futura;
+  --primary-font:  'Work Sans', sans-serif;
   --main-color: #e9d7c0;
   --primary-color: #8a6d46;
   --hover: #5a4d3e;
@@ -21,14 +24,9 @@
   
 }
 
-@font-face {
-    font-family: Futura;
-    src: url('futura-hv-bt-heavy/RoxboroughCF.ttf');
-    
-    
-  }
 
   body{
+    font-family: 'Work Sans', sans-serif;
     background-color: var(--light-bg);
   }
 
@@ -62,7 +60,7 @@ top:0;
   
   body {
     margin: 0;
-   font-family: Futura;
+   font-family: 'Work Sans', sans-serif;
   
   }
 
@@ -388,7 +386,7 @@ padding: 8px 50px;
     
     .service-description-section{padding:80px 0px;}
     .bg-black-section{background-color:black;}
-    .service-description-section p{color:rgba(129, 132, 137, 1);text-align:center;font-size:17px;font-weight:400; font-family: Futura;}
+    .service-description-section p{color:rgba(129, 132, 137, 1);text-align:center;font-size:17px;font-weight:400; font-family: 'Mulish', sans-serif;}
     
     .parallax {
     position: relative!important;
@@ -402,7 +400,7 @@ padding: 8px 50px;
 }
 .service-image-section{padding:200px 0px;}
 .text-white{color:white;}
-.service-description-section h6{text-align:center;font-size:20px;font-weight:400; font-family: Futura;text-transform:capitalize;}
+.service-description-section h6{text-align:center;font-size:20px;font-weight:400; font-family: 'Mulish', sans-serif;text-transform:capitalize;}
 .opacity-extra-medium {
     position: absolute;
     height: 100%;
@@ -443,12 +441,12 @@ padding: 8px 50px;
     left: 0;
     right: 0;
 }
-.service-data1 h2{font-size:20px; font-family: Futura;}
+.service-data1 h2{font-size:20px; font-family: 'Mulish', sans-serif;}
 
 .w-100{width:100%;}
 .p-0{padding:0px;}
 .book-section{padding:150px 0px;background-color:black;}
-    .book-section h4{font-size:75px;font-weight:600;text-transform:uppercase;width:50%;font-family: Futura;}
+    .book-section h4{font-size:75px;font-weight:600;text-transform:uppercase;width:50%;font-family: 'Mulish', sans-serif;}
     .mr-left{margin-left: 80px;}
     .form-style{border-radius: 50px;
     padding: 12px 20px;
@@ -926,9 +924,7 @@ padding: 40px 0px;}
         display: none !important;
       }
 
-      .gf-card-sec .col-lg-6:nth-child(1){
-        /*display: none !important;*/
-      }
+      
 
       .loc-iframe{
         height: 250px !important;
@@ -1048,9 +1044,6 @@ position: absolute;
   opacity: 0.15;
 }
 
-.section-contact .form-contact {
-
-}
 
 .section-contact .form-contact .single-input {
 position: relative;

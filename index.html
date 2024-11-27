@@ -53,10 +53,11 @@
 
     <link
       rel="stylesheet"
+      type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
 
-    <link rel="stylesheet" href="css/style.css" />
+    <link  type="text/css" rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -82,6 +83,7 @@
         <a href="skin-care.html">Skin</a>
 
         <a href="contact-us.php">Contact Us</a>
+        <a href="franchise.php">Franchise</a>
         <a href="franchise.php">Franchise</a>
       </nav>
       <div id="menu-btn" class="fas fa-bars"></div>
@@ -564,7 +566,7 @@
 
       // Loader animations
       startLoader();
-      gsap.to(".count", { opacity: 0, delay: 2.0, duration: 0.5 });
+      gsap.to(".count", { opacity: 0, delay: 3.5, duration: 0.5 });
 
       let textWrapper = document.querySelector(".ml16");
 
@@ -589,20 +591,20 @@
           duration: 3000,
           delay: (el, i) => 2000 + 30 * i,
         });
-      gsap.to(".ml16", { opacity: 0, delay: 2.0, duration: 0.5 });
+      gsap.to(".ml16", { opacity: 0, delay: 3.5, duration: 0.5 });
 
       gsap.to(".pre-loader", {
         scale: 0.5,
         ease: "power4.inOut",
         duration: 2,
-        delay: 2,
+        delay: 3,
       });
 
       gsap.to(".loader", {
         height: "0",
         ease: "power4.inOut",
         duration: 1.5,
-        delay: 3.65,
+        delay: 3.75,
       });
 
       gsap.to(".loader-bg", {
