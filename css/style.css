@@ -1161,7 +1161,7 @@ footer {
   bottom: 0;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   padding: 2em;
 }
 
@@ -1273,15 +1273,18 @@ footer > div {
   }
 
   .footer-nav {
-    flex-direction: row;
+    flex-direction: column;
     gap: 1em;
     align-items: center;
     text-align: center;
   }
 
   .fooimg {
-    width: 200px;
-    height: 120px;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
   }
 
   footer {
