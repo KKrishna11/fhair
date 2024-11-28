@@ -42,69 +42,68 @@
 
 
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Fhairsalons",
-      "url": "https://fhairsalons.com",
-      "description": "Fhairsalons is a premier franchise opportunity specializing in luxury hair and beauty services. Our model allows professionals to run their own salon while benefiting from our brand, training, and support.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Bandra",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400001",
-        "addressCountry": "IN"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91 98765 43210",
-        "contactType": "Franchise Inquiry",
-        "areaServed": "IN",
-        "availableLanguage": "en"
-      },
-      "serviceArea": {
-        "@type": "Place",
-        "name": "India"
-      },
-      "priceRange": "₹₹₹",
-      "businessType": "Hair Salon Franchise, Spa Franchise, Beauty Services Franchise",
-      "mainEntityOfPage": "https://fhairsalons.com",
-      "question": [
         {
-          "@type": "Question",
-          "name": "What is the Fhairsalons franchise model?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Fhairsalons franchise model allows entrepreneurs to own and operate their own beauty salon under the prestigious Fhairsalons brand. We offer comprehensive training, operational support, and a proven business strategy to ensure your success."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the benefits of franchising with Fhairsalons?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Franchising with Fhairsalons offers a proven business model, ongoing training, access to industry-leading tools, and a strong brand reputation. Our support ensures that your salon can offer the highest quality beauty and spa services while becoming a trusted community destination."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I become a franchisee of Fhairsalons?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "To become a franchisee, fill out our franchise inquiry form on the website, and our team will guide you through the process. We provide all necessary information on investment, training, and support to help you succeed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What kind of training and support does Fhairsalons offer franchisees?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Fhairsalons offers comprehensive training in salon operations, customer service, staff management, and marketing. Franchisees also receive ongoing support to ensure smooth operations and the highest standards of service."
-          }
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Fhairsalons",
+            "url": "https://fhairsalons.com",
+            "description": "Fhairsalons is a premier franchise opportunity specializing in luxury hair and beauty services. Our model allows professionals to run their own salon while benefiting from our brand, training, and support.",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Bandra",
+                "addressLocality": "Mumbai",
+                "addressRegion": "Maharashtra",
+                "postalCode": "400001",
+                "addressCountry": "IN"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91 98765 43210",
+                "contactType": "Franchise Inquiry",
+                "areaServed": "IN",
+                "availableLanguage": "en"
+            },
+            "serviceArea": {
+                "@type": "Place",
+                "name": "India"
+            },
+            "priceRange": "₹₹₹",
+            "businessType": "Hair Salon Franchise, Spa Franchise, Beauty Services Franchise",
+            "mainEntityOfPage": "https://fhairsalons.com",
+            "question": [{
+                    "@type": "Question",
+                    "name": "What is the Fhairsalons franchise model?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The Fhairsalons franchise model allows entrepreneurs to own and operate their own beauty salon under the prestigious Fhairsalons brand. We offer comprehensive training, operational support, and a proven business strategy to ensure your success."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the benefits of franchising with Fhairsalons?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Franchising with Fhairsalons offers a proven business model, ongoing training, access to industry-leading tools, and a strong brand reputation. Our support ensures that your salon can offer the highest quality beauty and spa services while becoming a trusted community destination."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How do I become a franchisee of Fhairsalons?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "To become a franchisee, fill out our franchise inquiry form on the website, and our team will guide you through the process. We provide all necessary information on investment, training, and support to help you succeed."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What kind of training and support does Fhairsalons offer franchisees?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Fhairsalons offers comprehensive training in salon operations, customer service, staff management, and marketing. Franchisees also receive ongoing support to ensure smooth operations and the highest standards of service."
+                    }
+                }
+            ]
         }
-      ]
-    }
     </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -162,14 +161,15 @@
         <nav class="navbar">
             <div id="close-navbar" class="fas fa-times"></div>
             <a href="hair-spa.html">Hair</a>
-            <a href="spa-menu.html">Spa</a>
             <a href="nail-care.html">Nail</a>
 
             <a href="scalp-treatment.html">Korean Hair Spa</a>
             <a href="skin-care.html">Skin</a>
 
-            <a href="contact-us.php">Contact Us</a>
             <a href="franchise.php">Franchise</a>
+            <a href="contact-us.php">Contact Us</a>
+            <a href="https://florianhurelhaircouture.com/" class="logo"> <img src="./images/blackfhhcs-logo.PNG" alt="fhhcslogo"> </a>
+
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>
     </section>

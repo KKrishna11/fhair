@@ -304,6 +304,101 @@ section {
 
 /* header */
 
+.header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--box-shadow);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--main-color);
+  z-index: 1000;
+}
+
+.logo img {
+  width: 100%; /* Make the logo responsive, it will take 100% width of its parent container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 200px; /* Max width to prevent logo from being too large */
+  filter: brightness(0) contrast(200%); /* Make image much darker and bolder */
+}
+
+/* Make sure the logo is resized properly for smaller screens */
+@media (max-width: 1200px) {
+  .logo img {
+    max-width: 250px; /* Adjust max width for tablets and large screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .logo img {
+    max-width: 220px; /* Adjust max width for smaller tablets or landscape phones */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    max-width: 200px; /* Adjust max width for small phones */
+  }
+}
+
+.header .logo {
+  /* Ensure the logo is on the left */
+  font-size: 2.5rem;
+  color: var(--black);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header .navbar {
+  display: flex;
+  align-content: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .navbar a {
+  text-decoration: none;
+  margin: 0 1rem;
+  color: var(--black);
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+.header #menu-btn {
+  display: none; /* Initially hide the menu button */
+  font-size: 2.5rem;
+  color: black;
+}
+
+#close-navbar {
+  display: none; /* Hide the close button initially */
+}
+
+@media (max-width: 768px) {
+  .header .navbar {
+    display: none; /* Hide the navbar on small screens */
+  }
+
+  .header #menu-btn {
+    display: block; /* Show the menu button on small screens */
+  }
+
+  /* Add a side menu or toggle the navbar on mobile screens */
+  #close-navbar {
+    display: block; /* Show close button on mobile */
+  }
+
+  .header #menu-btn,
+  #close-navbar {
+    position: absolute;
+    right: 2rem;
+  }
+}
+
 .footer {
   background: var(--main-color);
   text-align: center;
@@ -478,9 +573,7 @@ ul i:hover {
   color: #f2709c;
 }
 
-
 /* dsds */
-
 
 .section-contact {
   padding: 120px;
@@ -488,16 +581,16 @@ ul i:hover {
 }
 
 .section-contact .header-section .title {
-position: relative;
-margin-bottom: 17px;
-text-transform: uppercase;
+  position: relative;
+  margin-bottom: 17px;
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 55px;
 }
 
 .section-contact .header-section .title .dot {
   display: inline-block;
-position: absolute;
+  position: absolute;
   bottom: 8px;
   width: 8px;
   height: 8px;
@@ -506,31 +599,27 @@ position: absolute;
 }
 
 .section-contact .header-section .description {
-font-family: "Roboto", sans-serif;
-color: #2a6287;
+  font-family: "Roboto", sans-serif;
+  color: #2a6287;
 }
 
 .section-contact .header-section .big-title {
-position: absolute;
+  position: absolute;
   bottom: 100%;
   left: 50%;
-  transform: translate(-50%,70%);
+  transform: translate(-50%, 70%);
   font-size: 120px;
   font-weight: 700;
-  opacity: 0.15;
-}
-
-.section-contact .form-contact {
-
+  opacity: 0.20;
 }
 
 .section-contact .form-contact .single-input {
-position: relative;
+  position: relative;
   margin-top: 40px;
 }
 
 .section-contact .form-contact .single-input i {
-position: absolute;
+  position: absolute;
   top: 5px;
   left: 15px;
   color: var(--milkycoffee);
@@ -540,7 +629,7 @@ position: absolute;
 
 .section-contact .form-contact .single-input input,
 .section-contact .form-contact .single-input textarea {
-width: 100%;
+  width: 100%;
   border: none;
   border-bottom: 2px solid #07395c;
   padding-left: 50px;
@@ -548,84 +637,82 @@ width: 100%;
   font-size: 18px;
   font-weight: 700;
   /* text-transform: uppercase; */
-  transition: border .3s;
+  transition: border 0.3s;
 }
 
 .section-contact .form-contact .single-input input::placeholder,
 .section-contact .form-contact .single-input textarea::placeholder {
-color:black;
-font-weight: 00;
+  color: black;
+  font-weight: 00;
 }
 
 .section-contact .form-contact .single-input input:focus,
 .section-contact .form-contact .single-input textarea:focus {
-border-color: #df383f;
+  border-color: #df383f;
 }
 
 .section-contact .form-contact .single-input textarea {
-height: 150px;
-min-height: 50px;
+  height: 150px;
+  min-height: 50px;
 }
 
 .section-contact .form-contact .submit-input input {
-margin-top: 40px;
+  margin-top: 40px;
   padding: 15px 50px;
   background-color: green;
   color: white;
   font-weight: bolder;
   border: none;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
 .section-contact .form-contact .submit-input input:hover {
-background-color: #07395c;
-font-weight: 700;
+  background-color: #07395c;
+  font-weight: 700;
 }
 
 @media (max-width: 575.99px) {
-.section-contact {
+  .section-contact {
     padding: 80px 60px;
-}
+  }
 
-.section-contact .header-section .title {
+  .section-contact .header-section .title {
     font-size: 40px;
-}
+  }
 
-.section-contact .header-section .big-title {
-  font-size: 80px;
-}
+  .section-contact .header-section .big-title {
+    font-size: 60px;
+  }
 
-.section-contact .header-section .description {
-  font-size: 14px;
-}
+  .section-contact .header-section .description {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.99px) {
-.section-contact {
+  .section-contact {
     padding: 80px 60px;
-}
+  }
 
-.section-contact .header-section .title {
+  .section-contact .header-section .title {
     font-size: 45px;
-}
+  }
 
-.section-contact .header-section .big-title {
-  font-size: 100px;
-}
+  .section-contact .header-section .big-title {
+    font-size: 100px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
-.section-contact {
+  .section-contact {
     padding: 80px 60px;
-}
+  }
 
-.section-contact .header-section .title {
+  .section-contact .header-section .title {
     font-size: 45px;
-}
+  }
 
-.section-contact .header-section .big-title {
-  font-size: 100px;
+  .section-contact .header-section .big-title {
+    font-size: 100px;
+  }
 }
-}
-
-

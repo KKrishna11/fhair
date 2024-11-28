@@ -304,6 +304,108 @@ section {
 
 /* header */
 
+.header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--box-shadow);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--main-color);
+  z-index: 1000;
+}
+
+.logo img {
+  width: 100%; /* Make the logo responsive, it will take 100% width of its parent container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 200px; /* Max width to prevent logo from being too large */
+  filter: brightness(0) contrast(200%); /* Make image much darker and bolder */
+
+}
+
+/* Make sure the logo is resized properly for smaller screens */
+@media (max-width: 1200px) {
+  .logo img {
+    max-width: 250px; /* Adjust max width for tablets and large screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .logo img {
+    max-width: 220px; /* Adjust max width for smaller tablets or landscape phones */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    max-width: 200px; /* Adjust max width for small phones */
+  }
+}
+
+.header .logo {
+  /* Ensure the logo is on the left */
+  font-size: 2.5rem;
+  color: var(--black);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header .navbar {
+  display: flex;
+  align-content: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .navbar a {
+  text-decoration: none;
+  margin: 0 1rem;
+  color: var(--black);
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+.header #menu-btn {
+  display: none; /* Initially hide the menu button */
+  font-size: 2.5rem;
+  color: black;
+}
+
+#close-navbar {
+  display: none; /* Hide the close button initially */
+}
+
+@media (max-width: 768px) {
+  .header .navbar {
+    display: none; /* Hide the navbar on small screens */
+  }
+
+  .header #menu-btn {
+    display: block; /* Show the menu button on small screens */
+  }
+
+  /* Add a side menu or toggle the navbar on mobile screens */
+  #close-navbar {
+    display: block; /* Show close button on mobile */
+  }
+
+  .header #menu-btn,
+  #close-navbar {
+    position: absolute;
+    right: 2rem;
+  }
+}
+
+
+
+
+
+
+
 .footer {
   background: var(--main-color);
   text-align: center;
