@@ -41,35 +41,118 @@
     <script src="https://www.google.com/recaptcha/api.js"></script>
 
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Fhairsalons",
+      "url": "https://fhairsalons.com",
+      "description": "Fhairsalons is a premier franchise opportunity specializing in luxury hair and beauty services. Our model allows professionals to run their own salon while benefiting from our brand, training, and support.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bandra",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400001",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91 98765 43210",
+        "contactType": "Franchise Inquiry",
+        "areaServed": "IN",
+        "availableLanguage": "en"
+      },
+      "serviceArea": {
+        "@type": "Place",
+        "name": "India"
+      },
+      "priceRange": "₹₹₹",
+      "businessType": "Hair Salon Franchise, Spa Franchise, Beauty Services Franchise",
+      "mainEntityOfPage": "https://fhairsalons.com",
+      "question": [
+        {
+          "@type": "Question",
+          "name": "What is the Fhairsalons franchise model?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Fhairsalons franchise model allows entrepreneurs to own and operate their own beauty salon under the prestigious Fhairsalons brand. We offer comprehensive training, operational support, and a proven business strategy to ensure your success."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the benefits of franchising with Fhairsalons?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Franchising with Fhairsalons offers a proven business model, ongoing training, access to industry-leading tools, and a strong brand reputation. Our support ensures that your salon can offer the highest quality beauty and spa services while becoming a trusted community destination."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I become a franchisee of Fhairsalons?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To become a franchisee, fill out our franchise inquiry form on the website, and our team will guide you through the process. We provide all necessary information on investment, training, and support to help you succeed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What kind of training and support does Fhairsalons offer franchisees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fhairsalons offers comprehensive training in salon operations, customer service, staff management, and marketing. Franchisees also receive ongoing support to ensure smooth operations and the highest standards of service."
+          }
+        }
+      ]
+    }
+    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Rubik&display=swap"
         rel="stylesheet">
-        
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3QG2M36KJ2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-3QG2M36KJ2');
-</script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3QG2M36KJ2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NH3WGC6M');</script>
-<!-- End Google Tag Manager -->
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-3QG2M36KJ2');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NH3WGC6M');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
+
+
 
 </head>
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NH3WGC6M"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <body>
@@ -124,7 +207,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </p>
 
                         </div>
-                     
+
                     </div>
                 </div>
             </div>
@@ -399,11 +482,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <div class="box">
                 <h3>Our Location</h3>
-                      <p>
-            FLORIAN HUREL SALONS PRIVATE LIMITED <br>1st Floor, Haji Siddiqui
-            Building,<br> Dr. Ambedkar Road, Dandpada,
-            Khar (W),<br>Mumbai-400051, Maharashtra, India.
-          </p>
+                <p>
+                    FLORIAN HUREL SALONS PRIVATE LIMITED <br>1st Floor, Haji Siddiqui
+                    Building,<br> Dr. Ambedkar Road, Dandpada,
+                    Khar (W),<br>Mumbai-400051, Maharashtra, India.
+                </p>
             </div>
 
 

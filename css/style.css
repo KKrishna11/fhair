@@ -215,7 +215,7 @@ section {
   color: var(--black);
   text-transform: capitalize;
 }
-
+/* down there is one more header  */
 .header .navbar #close-navbar {
   position: absolute;
   top: 1.5rem;
@@ -262,6 +262,33 @@ section {
   z-index: 1000;
 }
 
+.logo img {
+  width: 100%; /* Make the logo responsive, it will take 100% width of its parent container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 200px; /* Max width to prevent logo from being too large */
+  filter: brightness(0) contrast(200%); /* Make image much darker and bolder */
+
+}
+
+/* Make sure the logo is resized properly for smaller screens */
+@media (max-width: 1200px) {
+  .logo img {
+    max-width: 250px; /* Adjust max width for tablets and large screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .logo img {
+    max-width: 220px; /* Adjust max width for smaller tablets or landscape phones */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    max-width: 200px; /* Adjust max width for small phones */
+  }
+}
+
 .header .logo {
   /* Ensure the logo is on the left */
   font-size: 2.5rem;
@@ -273,6 +300,8 @@ section {
 .header .navbar {
   display: flex;
   align-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 .header .navbar a {
@@ -1025,7 +1054,7 @@ section {
     font-size:4rem; 
     color: black;                            
     z-index: 100;                            
-    text-wrap: wrap;                          
+    text-wrap: nowrap;                          
     text-align: top;                         
     padding: 0.5rem;                                     
     max-width: 100%;                        
@@ -1034,6 +1063,9 @@ section {
   .about {
     background: none;
   }
+  .about .row .content h3{
+    font-size: 2.2rem;
+  } 
   .about .row .content p {
     font-size: 1.8rem;
     color: var(--black);
