@@ -1,5 +1,19 @@
+@font-face {
+  font-family: "Theseasons";
+  src: url("../fonts/theseasons-bd.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BrandonGrotesque"; /* Name for the second font */
+  src: url("../fonts/Brandon_Grotesque_bold.otf") format("truetype"); /* Specify the format */
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* @import url("https://fonts.googleapis.com/css?family=Playfair+Display:1,300,400,400italic,500,700,700italic,900"); */
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Work+Sans:wght@400;500;600&family=Barlow:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Work+Sans:wght@400;500;600&family=Barlow:wght@400;600&display=swap");
 
 :root {
   --main-color: #d7c7ae;
@@ -21,7 +35,7 @@
 
 * {
   /* font-family: "Playfair Display", sans-serif; */
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -31,16 +45,19 @@
   transition: all 0.2s linear;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Mulish', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Mulish", sans-serif;
 }
 
-a, button {
-  font-family: 'Barlow', sans-serif;
+a,
+button {
+  font-family: "Barlow", sans-serif;
 }
-
-
-
 
 html {
   font-size: 52.5%;
@@ -195,8 +212,8 @@ section {
 /* header */
 
 .header {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -248,8 +265,8 @@ section {
 }
 
 .header {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -260,6 +277,8 @@ section {
   right: 0;
   background: var(--main-color);
   z-index: 1000;
+  padding: 0px;
+  margin: 0px;
 }
 
 .logo img {
@@ -267,7 +286,39 @@ section {
   height: auto; /* Maintain aspect ratio */
   max-width: 200px; /* Max width to prevent logo from being too large */
   filter: brightness(0) contrast(200%); /* Make image much darker and bolder */
+}
 
+.fhairlogo img {
+  width: 160px;
+  height: 130px;
+  padding: 0px;
+  margin: 0px;
+  max-width: 200px; /* Max width to prevent logo from being too large */
+  filter: brightness(0.2) contrast(400%); /* Make image much darker and bolder */
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+  .fhairlogo img {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+/* For smaller tablets and large phones */
+@media (max-width: 576px) {
+  .fhairlogo img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+/* For small phones */
+@media (max-width: 480px) {
+  .fhairlogo img {
+    width: 75px;
+    height: 75px;
+  }
 }
 
 /* Make sure the logo is resized properly for smaller screens */
@@ -1000,26 +1051,24 @@ section {
     font-size: 5rem;
   } */
 
-
-
-  .home{
+  .home {
     min-height: 30vh;
     background: none;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .home .content span{
-    padding:1rem;
+  .home .content span {
+    padding: 1rem;
   }
   .home .content h3 {
-    font-size:5rem; 
-    color: black;                            
-    z-index: 100;                            
-    text-wrap: wrap;                          
-    text-align: top;                         
-    padding: 1rem;                                     
-    max-width: 100%;                        
+    font-size: 5rem;
+    color: black;
+    z-index: 100;
+    text-wrap: wrap;
+    text-align: top;
+    padding: 1rem;
+    max-width: 100%;
   }
 
   .about {
@@ -1040,32 +1089,32 @@ section {
     font-size: 50%;
   }
 
-  .home{
+  .home {
     min-height: 30vh;
     background: none;
     display: flex;
     align-items: center;
     justify-content: start;
   }
-  .home .content span{
-    padding:0.5rem;
+  .home .content span {
+    padding: 0.5rem;
   }
   .home .content h3 {
-    font-size:4rem; 
-    color: black;                            
-    z-index: 100;                            
-    text-wrap: nowrap;                          
-    text-align: top;                         
-    padding: 0.5rem;                                     
-    max-width: 100%;                        
+    font-size: 4rem;
+    color: black;
+    z-index: 100;
+    text-wrap: nowrap;
+    text-align: top;
+    padding: 0.5rem;
+    max-width: 100%;
   }
 
   .about {
     background: none;
   }
-  .about .row .content h3{
+  .about .row .content h3 {
     font-size: 2.2rem;
-  } 
+  }
   .about .row .content p {
     font-size: 1.8rem;
     color: var(--black);
@@ -1075,8 +1124,6 @@ section {
     line-height: 1.8;
   }
 }
-
-
 
 /* neww */
 
@@ -1106,9 +1153,18 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  width: 400px;
+  width: 300px;
   z-index: 2;
   color: var(--black);
+  align-content: center;
+  justify-content: center;
+}
+.specialfont {
+  font-family: "Theseasons", sans-serif;
+}
+.restfont {
+  font-family: "BrandonGrotesque", sans-serif;
+  font-weight: 100;
 }
 
 .count {
@@ -1120,7 +1176,6 @@ section {
 
 .copy {
   flex: 6;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-transform: capitalize;
   line-height: 1;
   font-size: 30px;
@@ -1179,16 +1234,20 @@ section {
 .newheader h1 {
   flex: 1;
   position: relative;
-  font-size: 10vw;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 500;
-  text-transform: uppercase;
+  font-size: 8vw;
   line-height: 1;
   text-align: center;
   justify-content: center;
   align-items: center;
+  /* font-family: "Theseasons", sans-serif; */
 }
-
+.specialfont {
+  font-family: "Theseasons", sans-serif;
+}
+.restfont {
+  font-family: "BrandonGrotesque", sans-serif;
+  font-weight: 100;
+}
 footer {
   bottom: 0;
   width: 100%;
@@ -1229,7 +1288,6 @@ footer > div {
   background: url(../images/deskimage1.jpg) no-repeat 50% 50%;
   background-size: cover;
 }
-
 
 /* 
 @media (max-width:900px){
@@ -1325,11 +1383,11 @@ footer > div {
   }
 }
 
-.footerpp-text{
+.footerpp-text {
   font-size: 1.5rem;
-    color: black;
-    font-weight: 700;
-    text-align: justify; /* Added justification */
-    line-height: 1.8; /* Adjust line height for better spacing */
-    padding: 1rem 0; /* Added padding for spacing around text */
+  color: black;
+  font-weight: 700;
+  text-align: justify; /* Added justification */
+  line-height: 1.8; /* Adjust line height for better spacing */
+  padding: 1rem 0; /* Added padding for spacing around text */
 }
