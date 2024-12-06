@@ -7,21 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- SEO Meta Tags for Franchise -->
-    <meta name="description" content="Explore the exciting opportunities of owning a Fhairsalons franchise. Join our growing network and bring premium beauty services to your area. Learn how you can become a part of our successful salon franchise today!" />
-    <meta name="keywords" content="hair salon franchise, beauty franchise opportunities, Fhairsalons franchise, salon business opportunities, beauty industry franchise, franchise for hair salons" />
-    <meta name="author" content="fhairsalons" />
+    <meta name="description" content="Explore the exciting opportunities of owning a Fhair Salon franchise. Join our growing network and bring premium beauty services to your area. Learn how you can become a part of our successful salon franchise today!" />
+    <meta name="keywords" content="hair salon franchise, beauty franchise opportunities, Fhair Salon franchise, salon business opportunities, beauty industry franchise, franchise for hair salons" />
+    <meta name="author" content="Fhair Salon" />
 
     <!-- Social Media Meta Tags -->
-    <meta property="og:title" content="Fhairsalons - Franchise Opportunities in Beauty & Hair" />
-    <meta property="og:description" content="Join the Fhairsalons franchise and bring premium beauty and hair salon services to your area. Become part of a successful franchise network with expert support and proven success!" />
+    <meta property="og:title" content="Fhair Salon - Franchise Opportunities in Beauty & Hair" />
+    <meta property="og:description" content="Join the Fhair Salon franchise and bring premium beauty and hair salon services to your area. Become part of a successful franchise network with expert support and proven success!" />
     <meta property="og:image" content="https://www.fhairsalons.com/images/franchise-opportunity-og.jpg" />
     <meta property="og:url" content="https://www.fhairsalons.com" />
     <meta property="og:type" content="website" />
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Fhairsalons - Franchise Opportunities in Beauty & Hair" />
-    <meta name="twitter:description" content="Discover the lucrative opportunities of owning a Fhairsalons franchise. Join our network and offer premium beauty services with expert guidance and support!" />
+    <meta name="twitter:title" content="Fhair Salon - Franchise Opportunities in Beauty & Hair" />
+    <meta name="twitter:description" content="Discover the lucrative opportunities of owning a Fhair Salon franchise. Join our network and offer premium beauty services with expert guidance and support!" />
 
     <link
         rel="icon"
@@ -34,7 +34,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-    <title>Fhairsalons</title>
+    <title>Fhair Salon</title>
     <link href="pppstyle.css" rel="stylesheet" />
     <link href="./css/style.css" rel="stylesheet" />
 
@@ -48,9 +48,9 @@
         {
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "Fhairsalons",
+            "name": "Fhair Salon",
             "url": "https://fhairsalons.com",
-            "description": "Fhairsalons is a premier franchise opportunity specializing in luxury hair and beauty services. Our model allows professionals to run their own salon while benefiting from our brand, training, and support.",
+            "description": "Fhair Salon is a premier franchise opportunity specializing in luxury hair and beauty services. Our model allows professionals to run their own salon while benefiting from our brand, training, and support.",
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Bandra",
@@ -75,23 +75,23 @@
             "mainEntityOfPage": "https://fhairsalons.com",
             "question": [{
                     "@type": "Question",
-                    "name": "What is the Fhairsalons franchise model?",
+                    "name": "What is the Fhair Salon franchise model?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The Fhairsalons franchise model allows entrepreneurs to own and operate their own beauty salon under the prestigious Fhairsalons brand. We offer comprehensive training, operational support, and a proven business strategy to ensure your success."
+                        "text": "The Fhair Salon franchise model allows entrepreneurs to own and operate their own beauty salon under the prestigious Fhairsalons brand. We offer comprehensive training, operational support, and a proven business strategy to ensure your success."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "What are the benefits of franchising with Fhairsalons?",
+                    "name": "What are the benefits of franchising with Fhair Salon?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Franchising with Fhairsalons offers a proven business model, ongoing training, access to industry-leading tools, and a strong brand reputation. Our support ensures that your salon can offer the highest quality beauty and spa services while becoming a trusted community destination."
+                        "text": "Franchising with Fhair Salon offers a proven business model, ongoing training, access to industry-leading tools, and a strong brand reputation. Our support ensures that your salon can offer the highest quality beauty and spa services while becoming a trusted community destination."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "How do I become a franchisee of Fhairsalons?",
+                    "name": "How do I become a franchisee of Fhair Salon?",
                     "acceptedAnswer": {
                         "@type": "Answer",
                         "text": "To become a franchisee, fill out our franchise inquiry form on the website, and our team will guide you through the process. We provide all necessary information on investment, training, and support to help you succeed."
@@ -99,10 +99,10 @@
                 },
                 {
                     "@type": "Question",
-                    "name": "What kind of training and support does Fhairsalons offer franchisees?",
+                    "name": "What kind of training and support does Fhair Salon offer franchisees?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Fhairsalons offers comprehensive training in salon operations, customer service, staff management, and marketing. Franchisees also receive ongoing support to ensure smooth operations and the highest standards of service."
+                        "text": "Fhair Salon offers comprehensive training in salon operations, customer service, staff management, and marketing. Franchisees also receive ongoing support to ensure smooth operations and the highest standards of service."
                     }
                 }
             ]
@@ -408,7 +408,7 @@
                         <span class="big-title">CONTACT</span>
                     </h2>
                     <p class="description">
-                        Interested in becoming a part of the fhairsalons family? Reach out
+                        Interested in becoming a part of the Fhair Salon family? Reach out
                         to discuss franchise opportunities and join our mission to
                         redefine beauty across the globe.
                     </p>
@@ -475,7 +475,7 @@
             <div class="box">
                 <h3>Find us here</h3>
                 <p>
-                    Stay connected with fhairsalons and explore our latest styles,
+                    Stay connected with Fhair Salon and explore our latest styles,
                     trends, and services. Follow us on social media for updates, offers,
                     and inspiration to make every day a good hair day!
                 </p>
@@ -514,7 +514,7 @@
 
         <div class="credit">
             Created by
-            <span><a href="./team.html">fhairsalons Franchise Team</a></span> |
+            <span><a href="./team.html">Fhair Salon Franchise Team</a></span> |
             <a href="./terms-and-conditions.html">Terms and Conditions</a> | All
             rights reserved!
         </div>

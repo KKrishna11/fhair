@@ -7,27 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- SEO Meta Tags for Franchise -->
-  <meta name="description" content="Get in touch with Fhairsalons to learn more about our franchise opportunities. Whether you're interested in opening a new location or learning about our services, we're here to help you start your journey!" />
-  <meta name="keywords" content="contact Fhairsalons, franchise inquiry, salon franchise opportunities, hair salon franchise contact, beauty franchise contact" />
-  <meta name="author" content="fhairsalons" />
+  <meta name="description" content="Get in touch with Fhair Salon to learn more about our franchise opportunities. Whether you're interested in opening a new location or learning about our services, we're here to help you start your journey!" />
+  <meta name="keywords" content="contact Fhair Salon, franchise inquiry, salon franchise opportunities, hair salon franchise contact, beauty franchise contact" />
+  <meta name="author" content="Fhair Salon" />
 
   <!-- Social Media Meta Tags -->
-  <meta property="og:title" content="Contact Fhairsalons - Franchise Opportunities" />
-  <meta property="og:description" content="Contact Fhairsalons to explore exciting franchise opportunities and start your own hair salon or beauty business. We're happy to answer any questions you have about joining our network!" />
+  <meta property="og:title" content="Contact Fhair Salon - Franchise Opportunities" />
+  <meta property="og:description" content="Contact Fhairsalon to explore exciting franchise opportunities and start your own hair salon or beauty business. We're happy to answer any questions you have about joining our network!" />
   <meta property="og:image" content="https://www.fhairsalons.com/images/contact-franchise-og.jpg" />
   <meta property="og:url" content="https://www.fhairsalons.com/" />
   <meta property="og:type" content="website" />
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Contact Fhairsalons - Franchise Opportunities" />
-  <meta name="twitter:description" content="Reach out to Fhairsalons for information about our franchise opportunities. Learn how you can start your own salon or beauty business with expert support and training!" />
+  <meta name="twitter:title" content="Contact Fhair Salon - Franchise Opportunities" />
+  <meta name="twitter:description" content="Reach out to Fhair Salon for information about our franchise opportunities. Learn how you can start your own salon or beauty business with expert support and training!" />
 
 
   <!-- Favicon -->
   <link rel="icon" href="./images/favicon.png" type="image/x-icon" />
 
-  <title>Fhairsalons</title>
+  <title>Fhair Salon</title>
   <link rel="stylesheet" href="css/contact-us.css" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
@@ -120,7 +120,7 @@
             <span class="big-title">CONTACT</span>
           </h2>
           <p class="description">
-            Interested in becoming a part of the fhairsalons family? Reach out
+            Interested in becoming a part of the Fhair Salon family? Reach out
             to discuss franchise opportunities and join our mission to
             redefine beauty across the globe.
           </p>
@@ -187,7 +187,7 @@
       <div class="box">
         <h3>Find us here</h3>
         <p>
-          Stay connected with fhairsalons and explore our latest styles,
+          Stay connected with Fhair Salon and explore our latest styles,
           trends, and services. Follow us on social media for updates, offers,
           and inspiration to make every day a good hair day!
         </p>
@@ -226,7 +226,7 @@
 
     <div class="credit">
       Created by
-      <span><a href="./team.html">fhairsalons Franchise Team</a></span> |
+      <span><a href="./team.html">Fhair Salon Franchise Team</a></span> |
       <a href="./terms-and-conditions.html">Terms and Conditions</a> | All
       rights reserved!
     </div>
