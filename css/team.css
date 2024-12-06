@@ -304,9 +304,10 @@ section {
 
 /* header */
 
+
 .header {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -317,6 +318,49 @@ section {
   right: 0;
   background: var(--main-color);
   z-index: 1000;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo img {
+  width: 100%; /* Make the logo responsive, it will take 100% width of its parent container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 200px; /* Max width to prevent logo from being too large */
+  filter: brightness(0) contrast(200%); /* Make image much darker and bolder */
+}
+
+.fhairlogo img {
+  width: 160px;
+  height: 130px;
+  padding: 0px;
+  margin: 0px;
+  max-width: 200px; /* Max width to prevent logo from being too large */
+  filter: brightness(0.2) contrast(400%); /* Make image much darker and bolder */
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+  .fhairlogo img {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+
+/* For smaller tablets and large phones */
+@media (max-width: 576px) {
+  .fhairlogo img {
+    width: 120px;
+    height: 105px;
+  }
+}
+
+/* For small phones */
+@media (max-width: 480px) {
+  .fhairlogo img {
+    width: 105px;
+    height: 95px;
+  }
 }
 
 .logo img {

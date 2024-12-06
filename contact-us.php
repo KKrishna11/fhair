@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- SEO Meta Tags for Franchise -->
   <meta name="description" content="Get in touch with Fhairsalons to learn more about our franchise opportunities. Whether you're interested in opening a new location or learning about our services, we're here to help you start your journey!" />
@@ -23,10 +23,9 @@
   <meta name="twitter:title" content="Contact Fhairsalons - Franchise Opportunities" />
   <meta name="twitter:description" content="Reach out to Fhairsalons for information about our franchise opportunities. Learn how you can start your own salon or beauty business with expert support and training!" />
 
+
   <!-- Favicon -->
-  <link rel="icon" href="https://www.fhairsalons.com/favicon.ico" type="image/x-icon" />
-
-
+  <link rel="icon" href="./images/favicon.png" type="image/x-icon" />
 
   <title>Fhairsalons</title>
   <link rel="stylesheet" href="css/contact-us.css" />
@@ -46,54 +45,68 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css" />
 
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto&display=swap" rel="stylesheet" />
-  
+
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3QG2M36KJ2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3QG2M36KJ2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-3QG2M36KJ2');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NH3WGC6M');</script>
-<!-- End Google Tag Manager -->
+    gtag('config', 'G-3QG2M36KJ2');
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NH3WGC6M');
+  </script>
+  <!-- End Google Tag Manager -->
 
 </head>
 
 <body>
-    
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NH3WGC6M"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
-<section class="header paddingsection">
-      <a href="./index.html" class="logo"> Fhairsalons </a>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NH3WGC6M"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-      <nav class="navbar">
-        <div id="close-navbar" class="fas fa-times"></div>
-        <a href="hair-spa.html">Hair</a>
-        <!-- <a href="spa-menu.html">Spa</a> -->
-        <a href="nail-care.html">Nail</a>
+  <section class="header paddingsection">
+    <a href="https://fhairsalons.com/" class="fhairlogo">
+      <img src="./images/Fhair-Salons-white.png" alt="fhhcslogo" /></a>
+    <nav class="navbar">
+      <div id="close-navbar" class="fas fa-times"></div>
+      <a href="hair-spa.html">Hair</a>
+      <!-- <a href="spa-menu.html">Spa</a> -->
+      <a href="nail-care.html">Nail</a>
 
-        <a href="scalp-treatment.html">Korean Hair Spa</a>
-        <a href="skin-care.html">Skin</a>
+      <a href="scalp-treatment.html">Korean Hair Spa</a>
+      <a href="skin-care.html">Skin</a>
 
-        <a href="franchise.php">Franchise</a>
-        <a href="contact-us.php">Contact Us</a>
-        <a href="https://florianhurelhaircouture.com/" class="logo"> <img src="./images/blackfhhcs-logo.PNG" alt="fhhcslogo"> </a>
-
-
-      </nav>
-      <div id="menu-btn" class="fas fa-bars"></div>
-    </section>
+      <a href="franchise.php">Franchise</a>
+      <a href="contact-us.php">Contact Us</a>
+      <a href="https://florianhurelhaircouture.com/" class="logo">
+        <img src="./images/blackfhhcs-logo.PNG" alt="fhhcslogo" />
+      </a>
+    </nav>
+    <div id="menu-btn" class="fas fa-bars"></div>
+  </section>
 
 
 
@@ -187,11 +200,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <div class="box">
         <h3>Our Location</h3>
-                <p>
-            FLORIAN HUREL SALONS PRIVATE LIMITED <br>1st Floor, Haji Siddiqui
-            Building,<br> Dr. Ambedkar Road, Dandpada,
-            Khar (W),<br>Mumbai-400051, Maharashtra, India.
-          </p>
+        <p>
+          FLORIAN HUREL SALONS PRIVATE LIMITED <br>1st Floor, Haji Siddiqui
+          Building,<br> Dr. Ambedkar Road, Dandpada,
+          Khar (W),<br>Mumbai-400051, Maharashtra, India.
+        </p>
       </div>
 
 

@@ -309,16 +309,16 @@ section {
 /* For smaller tablets and large phones */
 @media (max-width: 576px) {
   .fhairlogo img {
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 105px;
   }
 }
 
 /* For small phones */
 @media (max-width: 480px) {
   .fhairlogo img {
-    width: 75px;
-    height: 75px;
+    width: 105px;
+    height: 95px;
   }
 }
 

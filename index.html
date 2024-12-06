@@ -42,10 +42,10 @@
       content="Join the Fhairsalons franchise network for luxury salon services and business success. Discover the advantages of partnering with us."
     />
 
-    <!-- Favicon -->
+    <!--  -->
     <link
       rel="icon"
-      href="https://www.fhairsalons.com/favicon.ico"
+      href="./images/favicon.png"
       type="image/x-icon"
     />
 
@@ -139,12 +139,43 @@
         <div class="loader"></div>
         <div class="loader-bg"></div>
       </div>
-      <div class="loader-content">
+      <!-- <div class="loader-content">
         <div class="count">
           <p>0</p>
         </div>
         <div class="copy">
           <p class="ml16">FHairSalon</p>
+        </div>
+      </div> -->
+      <div
+        class="loader-content"
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 50vh;
+          text-align: center;
+          flex-direction: column;
+        "
+      >
+        <div class="count" style="font-size: 2rem; margin-bottom: 20px; color:white;">
+          <p>0</p>
+        </div>
+        <div
+          class="copy"
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <img
+            class="ml16"
+            src="./images/Fhair-salon-F-black.png"
+            alt="fhhcslogo"
+            style="
+              width: 150px;
+              height: auto;
+              max-width: 100%;
+              object-fit: contain;
+            "
+          />
         </div>
       </div>
       <div class="loader-2"></div>
@@ -154,11 +185,11 @@
       <div class="spacer-height"></div>
 
       <div class="newheader">
-        <h1 class="specialfont">f</h1>
+        <h1 class="restfont">F</h1>
         <h1 class="restfont">H</h1>
-        <h1 class="restfont">a</h1>
-        <h1 class="restfont">i</h1>
-        <h1 class="restfont">r</h1>
+        <h1 class="restfont">A</h1>
+        <h1 class="restfont">I</h1>
+        <h1 class="restfont">R</h1>
         <h1 class="restfont">S</h1>
         <h1 class="restfont">A</h1>
         <h1 class="restfont">L</h1>
@@ -655,7 +686,7 @@
 
       // Loader animations
       startLoader();
-      gsap.to(".count", { opacity: 0, delay: 2.0, duration: 0.5 });
+      gsap.to(".count", { opacity: 0, delay: 1, duration: 0.5 });
 
       let textWrapper = document.querySelector(".ml16");
 
@@ -670,7 +701,7 @@
           targets: ".ml16 .letter",
           translateY: [-100, 0],
           easing: "easeOutExpo",
-          duration: 1500,
+          duration: 1000,
           delay: (el, i) => 30 * i,
         })
         .add({
@@ -680,7 +711,7 @@
           duration: 3000,
           delay: (el, i) => 2000 + 30 * i,
         });
-      gsap.to(".ml16", { opacity: 0, delay: 2.0, duration: 0.5 });
+      gsap.to(".ml16", { opacity: 0, delay: 1.0, duration: 0.5 });
 
       gsap.to(".pre-loader", {
         scale: 0.5,

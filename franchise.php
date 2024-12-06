@@ -23,8 +23,11 @@
     <meta name="twitter:title" content="Fhairsalons - Franchise Opportunities in Beauty & Hair" />
     <meta name="twitter:description" content="Discover the lucrative opportunities of owning a Fhairsalons franchise. Join our network and offer premium beauty services with expert guidance and support!" />
 
-    <!-- Favicon -->
-    <link rel="icon" href="https://www.fhairsalons.com/favicon.ico" type="image/x-icon" />
+    <link
+        rel="icon"
+        href="./images/favicon.png"
+        type="image/x-icon" />
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -156,11 +159,12 @@
 
 <body>
     <section class="header paddingsection">
-        <a href="./index.html" class="logo"> Fhairsalons </a>
-
+        <a href="https://fhairsalons.com/" class="fhairlogo">
+            <img src="./images/Fhair-Salons-white.png" alt="fhhcslogo" /></a>
         <nav class="navbar">
             <div id="close-navbar" class="fas fa-times"></div>
             <a href="hair-spa.html">Hair</a>
+            <!-- <a href="spa-menu.html">Spa</a> -->
             <a href="nail-care.html">Nail</a>
 
             <a href="scalp-treatment.html">Korean Hair Spa</a>
@@ -168,11 +172,13 @@
 
             <a href="franchise.php">Franchise</a>
             <a href="contact-us.php">Contact Us</a>
-            <a href="https://florianhurelhaircouture.com/" class="logo"> <img src="./images/blackfhhcs-logo.PNG" alt="fhhcslogo"> </a>
-
+            <a href="https://florianhurelhaircouture.com/" class="logo">
+                <img src="./images/blackfhhcs-logo.PNG" alt="fhhcslogo" />
+            </a>
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>
     </section>
+
 
 
     <section class="contact-us-section gf-card-sec h-100 pb-0 position-relative">
